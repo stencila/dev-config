@@ -1,0 +1,20 @@
+{
+  "name": "@stencila/dev-config",
+  "version": "0.1.0",
+  "description": "Shared development configurations for Stencila projects",
+  "main": "prettier-config.json",
+  "scripts": {},
+  "peerDependencies": {
+    "prettier": "^1.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stencila/dev-config.git"
+  },
+  "author": "Stencila",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stencila/dev-config/issues"
+  },
+  "homepage": "https://github.com/stencila/dev-config#readme"
+}
