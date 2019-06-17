@@ -7,7 +7,7 @@ module.exports = {
     "plugin:react/recommended",
     "prettier/react"
   ],
-  plugins: [...defaultConfig.plugins, "react"],
+  plugins: [...defaultConfig.plugins, "react", "react-hooks"],
   parserOptions: {
     ...defaultConfig.parserOptions,
     jsx: true

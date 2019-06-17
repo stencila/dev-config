@@ -26,7 +26,7 @@ have a `eslintConfig` configuration defined there, you’ll need to modify it.
 From the project where you would like to use these settings, run
 
 ```
-npm install @stencila/eslint-config eslint-plugin-react --save-dev
+npm install @stencila/eslint-config eslint-plugin-react react-hooks--save-dev
 ```
 
 Then modify your `package.json` to include the following code block. If you already
