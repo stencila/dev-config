@@ -9,7 +9,5 @@ general.
 
 ## Available Packages
 
-- [`@stencila/dev-config`](./packages/dev-config)
-  - **Configurations for:**
-    - Prettier
-- [`@stencila/eslint-config`](./packages/eslint-config)
+- [`@stencila/dev-config`](./packages/dev-config): Configurations for EditorConfig, Prettier, Husky, and more.
+- [`@stencila/eslint-config`](./packages/eslint-config): Configurations for ESLint.
