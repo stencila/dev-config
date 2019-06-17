@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/stencila/dev-config/issues"
   },
-  "homepage": "https://github.com/stencila/dev-config#readme"
+  "homepage": "https://github.com/stencila/dev-config#readme",
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
 }

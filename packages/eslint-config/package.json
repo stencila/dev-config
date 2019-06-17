@@ -1,0 +1,30 @@
+{
+  "name": "@stencila/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint configuration for Stencila projects",
+  "keywords": [
+    "Stencila",
+    "dev",
+    "ESLint",
+    "config"
+  ],
+  "author": "Stencila <hello@stenci.la>",
+  "homepage": "https://github.com/stencila/dev-config",
+  "license": "Apache-2.0",
+  "main": "eslint-config.js",
+  "files": [
+    "eslint-config.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stencila/dev-config.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/stencila/dev-config/issues"
+  },
+  "dependencies": {}
+}
