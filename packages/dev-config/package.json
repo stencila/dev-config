@@ -20,6 +20,7 @@
     "url": "https://github.com/stencila/dev-config/issues"
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^8.0.0",
     "@stencila/eslint-config": "file:../eslint-config",
     "@stencila/semantic-release-config": "file:../semantic-release-config",
     "write-pkg": "^4.0.0"

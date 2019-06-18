@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const writePkg = require('write-pkg')
 
-const cwd = process.env.INIT_CWD
+const cwd = process.env.INIT_CWD || process.cwd()
 const pkgPath = path.join(cwd, 'package.json')
 
 const readPkg = async () =>
@@ -41,7 +41,23 @@ const semanticRelease = {
   }
 }
 
-const configurations = [prettierConfig, husky, esLint, semanticRelease]
+const commitLint = {
+  commitlint: {
+    extends: ['@commitlint/config-conventional'],
+    rules: {
+      'scope-case': [2, 'always', 'sentence-case'],
+      'subject-case': [2, 'always', 'sentence-case']
+    }
+  }
+}
+
+const configurations = [
+  commitLint,
+  esLint,
+  husky,
+  prettierConfig,
+  semanticRelease
+]
 
 // Update the project's `package.json`
 ;(async () => {

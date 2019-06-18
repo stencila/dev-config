@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/stencila/dev-config#readme",
   "devDependencies": {
+    "@commitlint/config-conventional": "^8.0.0",
     "commitlint": "^8.0.0",
     "husky": "^2.4.1",
     "lerna": "^3.15.0",
@@ -35,5 +36,28 @@
       "pre-commit": "pretty-quick --staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "scope-case": [
+        2,
+        "always",
+        "sentence-case"
+      ],
+      "subject-case": [
+        2,
+        "always",
+        "sentence-case"
+      ]
+    }
+  },
+  "eslintConfig": {
+    "extends": "@stencila/eslint-config"
+  },
+  "release": {
+    "extends": "@stencila/semantic-release-config"
   }
 }
