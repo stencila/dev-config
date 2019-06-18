@@ -1,0 +1,36 @@
+{
+  "name": "@stencila/semantic-release-config",
+  "version": "1.0.0",
+  "description": "Shared semantic-release configuration for Stencila projects",
+  "keywords": [
+    "Stencila",
+    "dev",
+    "semantic",
+    "release",
+    "config"
+  ],
+  "author": "Stencila <hello@stenci.la>",
+  "homepage": "https://github.com/stencila/dev-config/tree/master/packages/semantic-release-config#readme",
+  "license": "Apache-2.0",
+  "main": "semantic-release-config.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stencila/dev-config.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/stencila/dev-config/issues"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/commit-analyzer": "^6.2.0",
+    "@semantic-release/git": "^7.0.12",
+    "@semantic-release/github": "^5.4.0",
+    "@semantic-release/npm": "^5.1.9",
+    "@semantic-release/release-notes-generator": "^7.2.0",
+    "semantic-release": "^15.13.16"
+  }
+}

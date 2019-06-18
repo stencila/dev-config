@@ -1,0 +1,28 @@
+{
+  "name": "@stencila/dev-config",
+  "version": "1.0.0",
+  "description": "Shared development configurations for Stencila projects",
+  "author": "Stencila <hello@stenci.la>",
+  "homepage": "https://github.com/stencila/dev-config/tree/master/packages/dev-config#readme",
+  "license": "Apache-2.0",
+  "main": "init.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stencila/dev-config.git"
+  },
+  "scripts": {
+    "postinstall": "node ./init.js"
+  },
+  "bugs": {
+    "url": "https://github.com/stencila/dev-config/issues"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^8.0.0",
+    "@stencila/eslint-config": "file:../eslint-config",
+    "@stencila/semantic-release-config": "file:../semantic-release-config",
+    "write-pkg": "^4.0.0"
+  }
+}
