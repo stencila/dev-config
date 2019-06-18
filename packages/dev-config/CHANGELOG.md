@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.0.1...@stencila/dev-config@1.0.2) (2019-06-18)
+
+**Note:** Version bump only for package @stencila/dev-config
+
 ## 1.0.1 (2019-06-18)
 
 ### Bug Fixes
