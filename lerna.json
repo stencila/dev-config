@@ -4,7 +4,8 @@
   "command": {
     "publish": {
       "ignoreChanges": ["*.md"],
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "message": "chore(Release): Publish %s [skip ci]"
     }
   }
 }
