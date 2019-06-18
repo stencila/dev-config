@@ -12,13 +12,11 @@ Then modify your `package.json` to include the following code block. If you alre
 have a `release` configuration defined there, you’ll need to modify it.
 
 ```json5
-{
   // …
   "release": {
     "extends": "@stencila/semantic-release-config"
   }
   // …
-}
 ```
 
 ## References

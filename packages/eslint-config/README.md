@@ -12,13 +12,11 @@ Then modify your `package.json` to include the following code block. If you alre
 have a `eslintConfig` configuration defined there, you’ll need to modify it.
 
 ```json5
-{
   // …
   "eslintConfig": {
     "extends": "@stencila/eslint-config"
   }
   // …
-}
 ```
 
 ## Using with React.js based projects
@@ -33,13 +31,11 @@ Then modify your `package.json` to include the following code block. If you alre
 have a `eslintConfig` configuration defined there, you’ll need to modify it.
 
 ```json5
-{
   // …
   "eslintConfig": {
     "extends": "@stencila/eslint-config/eslint-config-react"
   }
   // …
-}
 ```
 
 ## References

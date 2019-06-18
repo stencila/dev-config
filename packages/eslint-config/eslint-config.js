@@ -1,16 +1,16 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   extends: [
-    "standard",
-    "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
+    'standard',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended'
   ],
-  plugins: ["@typescript-eslint", "prettier"],
+  plugins: ['@typescript-eslint', 'prettier'],
   rules: {
-    "@typescript-eslint/no-use-before-define": [
-      "error",
+    '@typescript-eslint/no-use-before-define': [
+      'error',
       {
         functions: false
       }
@@ -18,6 +18,6 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module"
+    sourceType: 'module'
   }
 }

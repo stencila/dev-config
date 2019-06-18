@@ -9,7 +9,6 @@ An opinionated tooling setup for Typescript projects including,
 - `typedoc` for source code documentation
 - `ts-node` and `ts-node-dev` for running scripts during development
 
-
 ## Usage
 
 1. From the project where you would like to use this boilerplate setup run,
@@ -22,11 +21,11 @@ npm install @stencila/typescript-boilerplate --save-dev
 
 ```json
 {
-	"extends": "@stencila/typescript-boilerplate",
-	"compilerOptions": {
+  "extends": "@stencila/typescript-boilerplate",
+  "compilerOptions": {
     /* Enable experimental support for ES7 decorators. */
-		"experimentalDecorators": true,
-	}
+    "experimentalDecorators": true
+  }
 }
 ```
 
@@ -53,12 +52,11 @@ module.exports = {
 }
 ```
 
-or copy it from here 
+or copy it from here
 
 ```bash
 cp node_modules/@stencila/typescript-boilerplate/typedoc.js .
 ```
-
 
 4. Add `scripts` to your `package.json` file for running tests, collecting coverage, building the package and generating documetation:
 
