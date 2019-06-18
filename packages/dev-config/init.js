@@ -29,9 +29,17 @@ const husky = {
   }
 }
 
-const esLint = {}
+const esLint = {
+  eslintConfig: {
+    extends: '@stencila/eslint-config'
+  }
+}
 
-const semanticRelease = {}
+const semanticRelease = {
+  release: {
+    extends: '@stencila/semantic-release-config'
+  }
+}
 
 const configurations = [prettierConfig, husky, esLint, semanticRelease]
 
