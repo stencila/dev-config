@@ -2,10 +2,12 @@
   "packages": ["packages/*"],
   "version": "independent",
   "command": {
-    "publish": {
-      "ignoreChanges": ["*.md"],
+    "version": {
+      "allowBranch": "master",
       "conventionalCommits": true,
+      "exact": true,
       "message": "chore(Release): Publish %s [skip ci]"
     }
-  }
+  },
+  "ignoreChanges": ["**/__tests__/**", "**/tests/**", "**/*.md"]
 }
