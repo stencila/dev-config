@@ -5,7 +5,7 @@
   "author": "Stencila <hello@stenci.la>",
   "homepage": "https://github.com/stencila/dev-config/tree/master/packages/dev-config#readme",
   "license": "Apache-2.0",
-  "main": "index.js",
+  "main": "init.js",
   "publishConfig": {
     "access": "public"
   },
