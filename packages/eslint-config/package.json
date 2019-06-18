@@ -9,12 +9,9 @@
     "config"
   ],
   "author": "Stencila <hello@stenci.la>",
-  "homepage": "https://github.com/stencila/dev-config",
+  "homepage": "https://github.com/stencila/dev-config/tree/master/packages/eslint-config#readme",
   "license": "Apache-2.0",
   "main": "eslint-config.js",
-  "files": [
-    "eslint-config.js"
-  ],
   "publishConfig": {
     "access": "public"
   },
