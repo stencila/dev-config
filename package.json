@@ -25,12 +25,6 @@
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1"
   },
-  "dependencies": {
-    "@stencila/dev-config": "file:packages/dev-config",
-    "@stencila/eslint-config": "file:packages/eslint-config",
-    "@stencila/semantic-release-config": "file:packages/semantic-release-config",
-    "@stencila/typescript-boilerplate": "file:packages/typescript-boilerplate"
-  },
   "prettier": "@stencila/dev-config/prettier-config.json",
   "husky": {
     "hooks": {
@@ -60,5 +54,11 @@
   },
   "release": {
     "extends": "@stencila/semantic-release-config"
+  },
+  "dependencies": {
+    "@stencila/dev-config": "file:packages/dev-config",
+    "@stencila/eslint-config": "file:packages/eslint-config",
+    "@stencila/semantic-release-config": "file:packages/semantic-release-config",
+    "@stencila/typescript-boilerplate": "file:packages/typescript-boilerplate"
   }
 }
