@@ -18,7 +18,7 @@ npm install @stencila/dev-config --save-dev --ignore-scripts
 If you decide you want to update your `package.json` at a later time, you can run this script manually using,
 
 ```bash
-npx @stencila/dev-config/init.js
+node -e 'require("@stencila/dev-config")'
 ```
 
 ## Tools
