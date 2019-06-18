@@ -13,6 +13,11 @@
   "homepage": "https://github.com/stencila/dev-config/tree/master/packages/semantic-release-config#readme",
   "license": "Apache-2.0",
   "main": "semantic-release-config.js",
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "semantic-release-config.js"
+  ],
   "publishConfig": {
     "access": "public"
   },

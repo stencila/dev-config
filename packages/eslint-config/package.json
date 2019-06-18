@@ -12,6 +12,11 @@
   "homepage": "https://github.com/stencila/dev-config/tree/master/packages/eslint-config#readme",
   "license": "Apache-2.0",
   "main": "eslint-config.js",
+  "files": [
+    "eslint-config-react.js",
+    "eslint-config.js",
+    "CHANGELOG.md"
+  ],
   "publishConfig": {
     "access": "public"
   },

@@ -9,6 +9,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    ".vscode/",
+    ".editorconfig",
+    "CHANGELOG.md",
+    "init.js",
+    "prettier-config.json",
+    "README.me"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stencila/dev-config.git"
