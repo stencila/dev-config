@@ -19,3 +19,39 @@ the particular tool's shared configuration mechanism to work):
 ## [`@stencila/typescript-boilerplate`](./packages/typescript-boilerplate)
 
 An opinionated setup for Typescript projects including tools such as `jest`, `typedoc`, and `ts-node-dev`. See the [README](./packages/typescript-boilerplate#readme) for more.
+
+## Contributing
+
+Clone this project
+
+```bash
+git clone git@github.com:stencila/dev-config.git
+```
+
+Install the root project dependencies
+
+```bash
+npm install
+```
+
+Install the sub-module dependencies
+
+```bash
+npx lerna bootstrap
+```
+
+## Releasing new versions
+
+The releases are currently manually generated. Make sure you have the latest
+`master` branch of this repository, and are in the root folder when running:
+
+```bash
+git checkout master && git pull
+```
+
+To automatically increase the versions numbers for each project based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
+run and release them, run:
+
+```bash
+npx lerna publish
+```
