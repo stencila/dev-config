@@ -1,8 +1,8 @@
 {
-  "name": "@stencila/dev-config",
+  "name": "@stencila/dev-config-packages",
   "version": "0.1.0",
   "description": "Shared development configurations for Stencila projects",
-  "main": "prettier-config.json",
+  "main": "lerna.json",
   "scripts": {},
   "peerDependencies": {
     "prettier": "^1.17.1"
@@ -19,6 +19,9 @@
   "homepage": "https://github.com/stencila/dev-config#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.0.0",
+    "@stencila/dev-config": "file:packages/dev-config",
+    "@stencila/eslint-config": "file:packages/eslint-config",
+    "@stencila/semantic-release-config": "file:packages/semantic-release-config",
     "commitlint": "^8.0.0",
     "husky": "^2.4.1",
     "lerna": "^3.15.0",
@@ -54,11 +57,5 @@
   },
   "release": {
     "extends": "@stencila/semantic-release-config"
-  },
-  "dependencies": {
-    "@stencila/dev-config": "file:packages/dev-config",
-    "@stencila/eslint-config": "file:packages/eslint-config",
-    "@stencila/semantic-release-config": "file:packages/semantic-release-config",
-    "@stencila/typescript-boilerplate": "file:packages/typescript-boilerplate"
   }
 }
