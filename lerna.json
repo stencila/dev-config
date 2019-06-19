@@ -6,7 +6,7 @@
       "allowBranch": "master",
       "conventionalCommits": true,
       "exact": true,
-      "message": "chore(Release): Publish %s [skip ci]"
+      "message": "chore(Release): Publish %v"
     }
   },
   "ignoreChanges": ["**/__tests__/**", "**/tests/**", "**/*.md"]
