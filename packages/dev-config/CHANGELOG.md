@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.0.6...@stencila/dev-config@1.1.0) (2019-07-05)
+
+### Features
+
+- **Configuration:** Copy over files if missing ([556b54b](https://github.com/stencila/dev-config/commit/556b54b))
+- **Tyescript:** Add Typescript config files ([a8244d1](https://github.com/stencila/dev-config/commit/a8244d1))
+
 ## [1.0.6](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.0.5...@stencila/dev-config@1.0.6) (2019-06-19)
 
 ### Bug Fixes
