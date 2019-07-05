@@ -50,7 +50,7 @@ git checkout master && git pull
 ```
 
 To automatically increase the versions numbers for each project based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
-run and release them, run:
+and release them, run:
 
 ```bash
 npx lerna publish
