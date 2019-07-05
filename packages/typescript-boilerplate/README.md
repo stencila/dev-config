@@ -11,17 +11,14 @@ An opinionated tooling setup for Typescript projects including,
 
 ## Usage
 
-1. From the project where you would like to use this boilerplate setup run,
+Just use this as an example when creating a new project. Check out the `package.json` and add
+or modify other files as needed...
 
-```bash
-npm install @stencila/typescript-boilerplate --save-dev
-```
-
-2. Create a `tsconfig.json` file that `extends` the Typescript configuration in this project, adding any options that you wish to override:
+A `tsconfig.json` file that `extends` or modifies the Typescript configuration in `dev-config` e.g.
 
 ```json
 {
-  "extends": "@stencila/typescript-boilerplate",
+  "extends": "@stencila/dev-config/tsconfig.json",
   "compilerOptions": {
     /* Enable experimental support for ES7 decorators. */
     "experimentalDecorators": true
@@ -29,7 +26,7 @@ npm install @stencila/typescript-boilerplate --save-dev
 }
 ```
 
-3. Add a `jest` configuration object to your `package.json`:
+Add a `jest` configuration object to your `package.json`:
 
 ```json5
   // …
@@ -43,22 +40,16 @@ npm install @stencila/typescript-boilerplate --save-dev
   // …
 ```
 
-4. Create a `typedoc.js` file:
+Create a `typedoc.json` file or modify the one in `dev-config`
 
-```js
-module.exports = {
-  out: './docs',
-  readme: './README.md'
+```json
+{
+  "out": "./docs",
+  "readme": "./README.md"
 }
 ```
 
-or copy it from here
-
-```bash
-cp node_modules/@stencila/typescript-boilerplate/typedoc.js .
-```
-
-4. Add `scripts` to your `package.json` file for running tests, collecting coverage, building the package and generating documetation:
+Add `scripts` to your `package.json` file for running tests, collecting coverage, building the package and generating documetation:
 
 ```json5
   // …
