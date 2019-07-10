@@ -55,7 +55,7 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "prettier": "./prettier-config.json",
+  "prettier": "@stencila/dev-config/prettier-config.json",
   "release": {
     "extends": "@stencila/semantic-release-config"
   }
