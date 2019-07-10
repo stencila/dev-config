@@ -26,7 +26,7 @@ module.exports = {
     '@typescript-eslint/restrict-plus-operands': 'error',
     // TODO: Enable once TS-ESlint is updated
     // "@typescript-eslint/restrict-plus-operands": "error",
-    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: 'h' }]
+    '@typescript-eslint/no-unused-vars': ['warn', { varsIgnorePattern: 'h' }]
   },
   parserOptions: {
     project: './tsconfig.json',
