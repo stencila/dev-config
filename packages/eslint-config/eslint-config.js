@@ -14,7 +14,17 @@ module.exports = {
       {
         functions: false
       }
-    ]
+    ],
+    '@typescript-eslint/explicit-function-return-type': [
+      'warn',
+      {
+        allowHigherOrderFunctions: true
+      }
+    ],
+    '@typescript-eslint/await-thenable': 'warn',
+    '@typescript-eslint/no-floating-promises': 'error',
+    '@typescript-eslint/restrict-plus-operands': 'error',
+    '@typescript-eslint/strict-boolean-expressions': 'error'
   },
   parserOptions: {
     ecmaVersion: 2018,
