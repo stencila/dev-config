@@ -24,9 +24,12 @@ module.exports = {
     '@typescript-eslint/await-thenable': 'warn',
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
-    '@typescript-eslint/strict-boolean-expressions': 'error'
+    // TODO: Enable once TS-ESlint is updated
+    // "@typescript-eslint/restrict-plus-operands": "error",
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: 'h' }]
   },
   parserOptions: {
+    project: './tsconfig.json',
     ecmaVersion: 2018,
     sourceType: 'module'
   }
