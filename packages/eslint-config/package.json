@@ -13,9 +13,10 @@
   "license": "Apache-2.0",
   "main": "eslint-config.js",
   "files": [
+    "CHANGELOG.md",
     "eslint-config-react.js",
-    "eslint-config.js",
-    "CHANGELOG.md"
+    "eslint-config-stencil.js",
+    "eslint-config.js"
   ],
   "publishConfig": {
     "access": "public"
