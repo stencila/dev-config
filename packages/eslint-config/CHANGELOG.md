@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.0.5...@stencila/eslint-config@1.1.0) (2019-07-11)
+
+### Bug Fixes
+
+- **ESLint:** Add missing project config field ([2d8bbdb](https://github.com/stencila/dev-config/commit/2d8bbdb))
+- **ESLint:** Add StencilJS lint configuration file to package files ([8e3c091](https://github.com/stencila/dev-config/commit/8e3c091))
+- **ESLint:** Fix issues with using configuration from other projects ([c47c2a6](https://github.com/stencila/dev-config/commit/c47c2a6))
+- **ESLint:** Fix typo in Linting rule configuration ([ba6d669](https://github.com/stencila/dev-config/commit/ba6d669))
+
+### Features
+
+- **ESLint:** Add custom linting rules ([91cd2f5](https://github.com/stencila/dev-config/commit/91cd2f5))
+
 ## [1.0.5](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.0.4...@stencila/eslint-config@1.0.5) (2019-06-19)
 
 ### Bug Fixes

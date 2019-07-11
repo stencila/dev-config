@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.1.0...@stencila/dev-config@1.1.1) (2019-07-11)
+
+### Bug Fixes
+
+- **ESLint:** Fix issues with using configuration from other projects ([c47c2a6](https://github.com/stencila/dev-config/commit/c47c2a6))
+
 # [1.1.0](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.0.6...@stencila/dev-config@1.1.0) (2019-07-05)
 
 ### Features
