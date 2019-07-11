@@ -24,7 +24,7 @@
     "@stencila/eslint-config": "file:../eslint-config",
     "@stencila/semantic-release-config": "file:../semantic-release-config",
     "commitlint": "^8.0.0",
-    "husky": "^2.4.1",
+    "husky": "^3.0.0",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
     "write-pkg": "^4.0.0"
@@ -55,7 +55,7 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "prettier": "./prettier-config.json",
+  "prettier": "@stencila/dev-config/prettier-config.json",
   "release": {
     "extends": "@stencila/semantic-release-config"
   }
