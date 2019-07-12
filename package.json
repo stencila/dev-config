@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Shared development configurations for Stencila projects",
   "main": "lerna.json",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "npm run bootstrap",
+    "bootstrap": "npx lerna exec 'npm install --ignore-scripts'"
+  },
   "peerDependencies": {
     "prettier": "^1.17.1"
   },

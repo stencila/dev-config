@@ -34,7 +34,8 @@
   "bugs": {
     "url": "https://github.com/stencila/dev-config/issues"
   },
-  "dev-dependencies": {
+  "devDependencies": {
+    "@stencila/dev-config": "file:../dev-config",
     "@types/jest": "^24.0.15",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
@@ -50,9 +51,6 @@
     "testMatch": [
       "**/tests/**/*.test.ts"
     ]
-  },
-  "devDependencies": {
-    "@stencila/dev-config": "file:../dev-config"
   },
   "commitlint": {
     "extends": [
