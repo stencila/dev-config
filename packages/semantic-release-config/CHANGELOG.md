@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.1.4...@stencila/semantic-release-config@1.1.5) (2019-07-12)
+
+### Bug Fixes
+
+- **Install:** Fix install issues and add postinstall hook ([12b0294](https://github.com/stencila/dev-config/commit/12b0294))
+
 ## [1.1.4](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.1.3...@stencila/semantic-release-config@1.1.4) (2019-06-19)
 
 ### Bug Fixes

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.1.0...@stencila/eslint-config@1.1.1) (2019-07-12)
+
+### Bug Fixes
+
+- **Install:** Fix install issues and add postinstall hook ([12b0294](https://github.com/stencila/dev-config/commit/12b0294))
+
 # [1.1.0](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.0.5...@stencila/eslint-config@1.1.0) (2019-07-11)
 
 ### Bug Fixes
