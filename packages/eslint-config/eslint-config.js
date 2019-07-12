@@ -27,8 +27,7 @@ module.exports = {
     '@typescript-eslint/await-thenable': 'warn',
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
-    // TODO: Enable once TS-ESlint is updated
-    // "@typescript-eslint/strict-boolean-expressions": "error",
+    '@typescript-eslint/strict-boolean-expressions': 'error',
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {
