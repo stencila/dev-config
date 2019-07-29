@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.6](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.1.5...@stencila/semantic-release-config@1.1.6) (2019-07-29)
+
+### Bug Fixes
+
+- **Release:** Run NPM plugin before Git plugin ([1fbd2bc](https://github.com/stencila/dev-config/commit/1fbd2bc)), closes [#5](https://github.com/stencila/dev-config/issues/5)
+
 ## [1.1.5](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.1.4...@stencila/semantic-release-config@1.1.5) (2019-07-12)
 
 ### Bug Fixes
