@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.1.3...@stencila/dev-config@1.2.0) (2019-09-04)
+
+### Features
+
+- **dev-config:** Disable automatic post-install hook. Requires manual step to finish installation. ([d9ae7df](https://github.com/stencila/dev-config/commit/d9ae7df))
+
 ## [1.1.3](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.1.2...@stencila/dev-config@1.1.3) (2019-07-29)
 
 **Note:** Version bump only for package @stencila/dev-config
