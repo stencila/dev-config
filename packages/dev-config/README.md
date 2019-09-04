@@ -5,26 +5,22 @@ Stencila projects. This allows to avoid boilerplate when creating projects, have
 
 ## Install
 
+This package requires running a command to finish the installation. The command **will modify your project**:
+
+- by adding or changing configuration properties to `package.json` (e.g. a `prettier` property that points to the Prettier configuration in this project)'
+- by adding _missing_ config files like `.editorconfig`
+
+To install run the following commands:
+
 ```bash
 npm install @stencila/dev-config --save-dev
 ```
 
-This package includes an installation script that **will modify your project**:
-
-- by adding configuration properties to `package.json` (e.g. a `prettier` property that points to the Prettier configuration in this project)'
-- by adding _missing_ config files like `.editorconfig`
-
-If you do not want that to happen run `npm install` with the `--ignore-scripts` option,
-
-```bash
-npm install @stencila/dev-config --save-dev --ignore-scripts
-```
-
-If you decide you want to update your `package.json` at a later time, you can run this script manually using,
-
 ```bash
 node -e 'require("@stencila/dev-config")'
 ```
+
+If you decide you want to update your `package.json` at a later time, you can run the above command again.
 
 Note that this package includes configurations for Typescript, Jest and related tooling but does not assume that you will be using them. Configurations for these can be copied over manually e.g.
 
