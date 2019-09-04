@@ -7,7 +7,7 @@ Stencila projects. This allows to avoid boilerplate when creating projects, have
 
 This package requires running a command to finish the installation. The command **will modify your project**:
 
-- by adding configuration properties to `package.json` (e.g. a `prettier` property that points to the Prettier configuration in this project)'
+- by adding or changing configuration properties to `package.json` (e.g. a `prettier` property that points to the Prettier configuration in this project)'
 - by adding _missing_ config files like `.editorconfig`
 
 To install run the following commands:
