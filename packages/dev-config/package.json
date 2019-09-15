@@ -14,7 +14,7 @@
     "url": "git+https://github.com/stencila/dev-config.git"
   },
   "scripts": {
-    "postinstall": "echo \"⚙️  @stencila/dev-config:\nIf this is the first time you’re installing this pacakge, or wish to upgrade your configuration, run: \n> node -e 'require(\"@stencila/dev-config\")'\""
+    "postinstall": "echo \"⚙️  @stencila/dev-config:\nIf this is the first time you’re installing this package, or wish to upgrade your configuration, run: \n> node -e 'require(\"@stencila/dev-config\")'\""
   },
   "bugs": {
     "url": "https://github.com/stencila/dev-config/issues"
