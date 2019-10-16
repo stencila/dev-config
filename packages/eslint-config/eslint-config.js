@@ -3,6 +3,7 @@ module.exports = {
   extends: [
     'standard',
     'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended'
@@ -24,6 +25,7 @@ module.exports = {
         allowHigherOrderFunctions: true
       }
     ],
+    '@typescript-eslint/ban-ts-ignore': 'warn',
     '@typescript-eslint/await-thenable': 'warn',
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
