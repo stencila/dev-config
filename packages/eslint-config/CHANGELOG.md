@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.1.3...@stencila/eslint-config@1.1.4) (2019-10-16)
+
+### Bug Fixes
+
+- **ESLint:** Relax strict-boolean-expressions rule for null & undefined ([94f292b](https://github.com/stencila/dev-config/commit/94f292b))
+
 ## [1.1.3](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.1.2...@stencila/eslint-config@1.1.3) (2019-10-16)
 
 **Note:** Version bump only for package @stencila/eslint-config
