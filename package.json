@@ -1,6 +1,5 @@
 {
   "name": "@stencila/dev-config-packages",
-  "version": "0.1.0",
   "description": "Shared development configurations for Stencila projects",
   "main": "lerna.json",
   "scripts": {
@@ -26,10 +25,10 @@
     "@stencila/eslint-config": "file:packages/eslint-config",
     "@stencila/semantic-release-config": "file:packages/semantic-release-config",
     "commitlint": "^8.2.0",
-    "husky": "^3.0.9",
-    "lerna": "^3.17.0",
-    "prettier": "^1.18.2",
-    "pretty-quick": "^2.0.0"
+    "husky": "^3.1.0",
+    "lerna": "^3.19.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
   },
   "prettier": "./packages/dev-config/prettier-config.json",
   "husky": {
