@@ -9,7 +9,7 @@ script:
 
 # Prevent Github Pages from using Jekyll
 before_deploy:
-  - touch docs/.nojekyll
+  - touch .nojekyll
 
 after_success:
   - git config --global user.email ${GIT_COMMITTER_EMAIL}
