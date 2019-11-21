@@ -29,7 +29,7 @@
     "url": "https://github.com/stencila/dev-config/issues"
   },
   "dependencies": {
-    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/changelog": "^3.0.6",
     "@semantic-release/commit-analyzer": "^6.3.0",
     "@semantic-release/git": "^7.0.16",
     "@semantic-release/github": "^5.5.3",
