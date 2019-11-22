@@ -2,16 +2,13 @@ language: node_js
 node_js: ['10']
 os: linux
 
-# Build Packages and Storybook
+# Build Packages to verify dependencies
 script:
-  - npm ci
   - npm run bootstrap
 
-# Prevent Github Pages from using Jekyll
+# Configure settings needed for Lerna to manage releases.
+# Based on https://github.com/geut/lerna-travis-demo#a---fully-automatic
 before_deploy:
-  - touch .nojekyll
-
-after_success:
   - git config --global user.email ${GIT_COMMITTER_EMAIL}
   - git config --global user.name stencila-ci
   - git remote set-url origin "https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" > /dev/null 2>&1

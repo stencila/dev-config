@@ -47,7 +47,7 @@ Release are generated automatically when Pull Requests are merged into the `mast
 This process is automated thanks to [conventional
 changelog](https://github.com/conventional-changelog/conventional-changelog)
 style commit messages e.g. `docs(readme): fixed spelling mistake` and
-[`semantic-release`](https://github.com/semantic-release/semantic-release).
+[`Lerna`](https://github.com/lerna/lerna/blob/master/commands/version/README.md#--conventional-commits).
 They enable us to automate version management: minor version releases are done if
 any `feat(...)` commits are pushed, patch version releases are done if any
 `fix(...)` commits are pushed. See [the
