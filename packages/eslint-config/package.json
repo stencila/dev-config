@@ -41,8 +41,8 @@
     "standard": "^14.3.1"
   },
   "devDependencies": {
-    "prettier": "1.18.2",
-    "typescript": "3.6.4"
+    "prettier": "1.19.1",
+    "typescript": "3.7.2"
   },
   "peerDependencies": {
     "prettier": "^1.18.2",
