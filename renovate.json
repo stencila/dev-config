@@ -1,4 +1,4 @@
 {
   "groupName": "all",
-  "extends": ["config:base"]
+  "extends": ["config:base", "schedule:earlyMondays"]
 }
