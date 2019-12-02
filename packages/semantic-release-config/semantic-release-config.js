@@ -7,6 +7,7 @@ module.exports = {
     // and `package-lock.json` are committed.
     '@semantic-release/npm',
     '@semantic-release/git',
-    '@semantic-release/github'
+    '@semantic-release/github',
+    '@qiwi/semantic-release-gh-pages-plugin'
   ]
 }
