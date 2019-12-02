@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.1.9...@stencila/semantic-release-config@1.2.0) (2019-12-02)
+
+
+### Features
+
+* **Semantic release:** Publish docs to Github pages on release ([226015a](https://github.com/stencila/dev-config/commit/226015a))
+
+
+
+
+
 ## [1.1.9](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.1.8...@stencila/semantic-release-config@1.1.9) (2019-11-21)
 
 **Note:** Version bump only for package @stencila/semantic-release-config
