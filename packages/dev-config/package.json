@@ -6,6 +6,9 @@
   "homepage": "https://github.com/stencila/dev-config/tree/master/packages/dev-config#readme",
   "license": "Apache-2.0",
   "main": "init.js",
+  "bin": {
+    "stencila-dev-config": "init.js"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -14,7 +17,7 @@
     "url": "git+https://github.com/stencila/dev-config.git"
   },
   "scripts": {
-    "postinstall": "echo \"⚙️  @stencila/dev-config:\nIf this is the first time you’re installing this package, or wish to upgrade your configuration, run: \n> node -e 'require(\"@stencila/dev-config\")'\""
+    "postinstall": "node postinstall.js"
   },
   "bugs": {
     "url": "https://github.com/stencila/dev-config/issues"
