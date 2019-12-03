@@ -43,7 +43,13 @@ const commitLint = {
   }
 }
 
-const configurations = [commitLint, esLint, husky, prettier, semanticRelease]
+const renovate = {
+  renovate: {
+    extends: ['@stencila']
+  }
+}
+
+const configurations = [commitLint, esLint, husky, prettier, renovate, semanticRelease]
 
 // Files to copy to the project (if missing)
 

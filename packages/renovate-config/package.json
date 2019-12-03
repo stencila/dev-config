@@ -1,0 +1,44 @@
+{
+  "name": "@stencila/renovate-config",
+  "version": "0.1.0",
+  "description": "Shared Renovate configuration for Stencila projects",
+  "keywords": [
+    "Stencila",
+    "dev",
+    "Renovate",
+    "config"
+  ],
+  "author": "Stencila <hello@stenci.la>",
+  "homepage": "https://github.com/stencila/dev-config/tree/master/packages/renovate-config#readme",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stencila/dev-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stencila/dev-config/issues"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": ["config:base"],
+      "schedule": ["before 3am on Wednesday"],
+      "packageRules": [
+        {
+          "depTypeList": ["dependencies"]
+        },
+        {
+          "groupName": "Dev dependencies",
+          "groupSlug": "dev",
+          "depTypeList": ["devDependencies"]
+        }
+      ]
+    },
+    "groupAll": {
+      "extends": ["config:base", "group:all"],
+      "schedule": ["before 3am on Wednesday"]
+    }
+  }
+}
