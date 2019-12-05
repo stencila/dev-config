@@ -1,6 +1,6 @@
 {
   "name": "@stencila/renovate-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Shared Renovate configuration for Stencila projects",
   "keywords": [
     "Stencila",
@@ -23,22 +23,35 @@
   },
   "renovate-config": {
     "default": {
-      "extends": ["config:base"],
-      "schedule": ["before 3am on Wednesday"],
+      "extends": [
+        "config:base"
+      ],
+      "schedule": [
+        "before 3am on Wednesday"
+      ],
       "packageRules": [
         {
-          "depTypeList": ["dependencies"]
+          "depTypeList": [
+            "dependencies"
+          ]
         },
         {
           "groupName": "Dev dependencies",
           "groupSlug": "dev",
-          "depTypeList": ["devDependencies"]
+          "depTypeList": [
+            "devDependencies"
+          ]
         }
       ]
     },
     "groupAll": {
-      "extends": ["config:base", "group:all"],
-      "schedule": ["before 3am on Wednesday"]
+      "extends": [
+        "config:base",
+        "group:all"
+      ],
+      "schedule": [
+        "before 3am on Wednesday"
+      ]
     }
   }
 }

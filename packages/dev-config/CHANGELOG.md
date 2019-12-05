@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.3.1...@stencila/dev-config@1.4.0) (2019-12-05)
+
+
+### Features
+
+* **Renovate:** Add renovate-config ([d065373](https://github.com/stencila/dev-config/commit/d065373))
+
+
+
+
+
 ## [1.3.1](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.3.0...@stencila/dev-config@1.3.1) (2019-12-03)
 
 
