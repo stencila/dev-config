@@ -36,14 +36,14 @@
   },
   "devDependencies": {
     "@stencila/dev-config": "file:../dev-config",
-    "@types/jest": "24.0.23",
+    "@types/jest": "24.0.25",
     "jest": "24.9.0",
-    "ts-jest": "24.2.0",
+    "ts-jest": "24.3.0",
     "ts-node": "8.5.4",
     "ts-node-dev": "1.0.0-pre.44",
-    "typedoc": "0.15.5",
+    "typedoc": "0.15.6",
     "typedoc-plugin-external-module-name": "2.1.0",
-    "typescript": "3.7.3"
+    "typescript": "3.7.4"
   },
   "jest": {
     "preset": "ts-jest",
