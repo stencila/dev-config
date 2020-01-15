@@ -31,11 +31,11 @@
   "dependencies": {
     "@qiwi/semantic-release-gh-pages-plugin": "^1.15.6",
     "@semantic-release/changelog": "^3.0.6",
-    "@semantic-release/commit-analyzer": "^6.3.0",
-    "@semantic-release/git": "^7.0.16",
-    "@semantic-release/github": "^5.5.3",
-    "@semantic-release/npm": "^5.2.0",
+    "@semantic-release/commit-analyzer": "^7.0.0",
+    "@semantic-release/git": "^8.0.0",
+    "@semantic-release/github": "^6.0.0",
+    "@semantic-release/npm": "^6.0.0",
     "@semantic-release/release-notes-generator": "^7.3.0",
-    "semantic-release": "^15.13.24"
+    "semantic-release": "^16.0.0"
   }
 }
