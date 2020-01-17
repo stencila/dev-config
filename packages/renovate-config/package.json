@@ -26,8 +26,9 @@
       "extends": [
         "config:base"
       ],
+      "timezone": "UTC",
       "schedule": [
-        "before 3am on Wednesday"
+        "before 12pm on Wednesday"
       ],
       "packageRules": [
         {
@@ -49,8 +50,9 @@
         "config:base",
         "group:all"
       ],
+      "timezone": "UTC",
       "schedule": [
-        "before 3am on Wednesday"
+        "before 12pm on Wednesday"
       ]
     }
   }
