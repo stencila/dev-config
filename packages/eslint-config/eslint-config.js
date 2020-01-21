@@ -14,7 +14,7 @@ module.exports = {
       'error',
       {
         functions: false,
-        // Because sometime we define functions using const func = ...
+        // Because sometimes we define functions using const func = ...
         variables: false
       }
     ],
@@ -29,6 +29,8 @@ module.exports = {
     '@typescript-eslint/await-thenable': 'warn',
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
+    '@typescript-eslint/prefer-nullish-coalescing': 'error',
+    '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/strict-boolean-expressions': [
       'error',
       { allowNullable: true }

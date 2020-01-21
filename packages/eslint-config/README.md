@@ -1,5 +1,11 @@
 # `@stencila/eslint-config`
 
+## Adding rules
+
+When adding a rule, prefer `error` over `warn` as warnings tend to be ignored, whereas errors
+can not. If a rule is fixable (i.e. using the `--fix` makes errors go away) then there is no inconvenience
+anyway by making it an error instead of a warning.
+
 ## General Usage
 
 From the project where you would like to use these settings, run
