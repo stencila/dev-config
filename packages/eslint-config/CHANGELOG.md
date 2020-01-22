@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.1.10...@stencila/eslint-config@1.2.0) (2020-01-22)
+
+
+### Features
+
+* **Eslint:** Add new null coalescing and optional chaining rules ([3931747](https://github.com/stencila/dev-config/commit/3931747))
+
+
+
+
+
 ## [1.1.10](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.1.9...@stencila/eslint-config@1.1.10) (2020-01-07)
 
 **Note:** Version bump only for package @stencila/eslint-config
