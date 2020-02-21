@@ -34,7 +34,8 @@
         {
           "depTypeList": [
             "dependencies"
-          ]
+          ],
+          "rangeStrategy": "bump"
         },
         {
           "groupName": "Dev dependencies",
