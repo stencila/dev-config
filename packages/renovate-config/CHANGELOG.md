@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/stencila/dev-config/compare/@stencila/renovate-config@0.2.2...@stencila/renovate-config@0.3.0) (2020-02-24)
+
+
+### Features
+
+* **Renovate:** Add more config options ([9d25579](https://github.com/stencila/dev-config/commit/9d25579))
+
+
+
+
+
 ## [0.2.2](https://github.com/stencila/dev-config/compare/@stencila/renovate-config@0.2.1...@stencila/renovate-config@0.2.2) (2020-02-21)
 
 
