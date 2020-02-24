@@ -30,6 +30,10 @@
       "schedule": [
         "before 12pm on Wednesday"
       ],
+      "stabilityDays": 3,
+      "masterIssue": true,
+      "masterIssueTitle": "Update dependencies",
+      "semanticCommitScope": "Dependencies",
       "packageRules": [
         {
           "depTypeList": [
