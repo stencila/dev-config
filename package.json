@@ -7,7 +7,7 @@
     "bootstrap": "npx lerna exec 'npm install --ignore-scripts'"
   },
   "peerDependencies": {
-    "prettier": "^1.17.1"
+    "prettier": "^1.17.1 || ^2.0.0"
   },
   "repository": {
     "type": "git",
