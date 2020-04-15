@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.26](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.4.25...@stencila/dev-config@1.4.26) (2020-04-15)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency husky to ^4.2.5 ([19a8fe1](https://github.com/stencila/dev-config/commit/19a8fe1))
+
+
+
+
+
 ## [1.4.25](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.4.24...@stencila/dev-config@1.4.25) (2020-04-14)
 
 

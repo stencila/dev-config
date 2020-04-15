@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.12](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.2.11...@stencila/eslint-config@1.2.12) (2020-04-15)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency eslint-plugin-prettier to ^3.1.3 ([7610962](https://github.com/stencila/dev-config/commit/7610962))
+
+
+
+
+
 ## [1.2.11](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.2.10...@stencila/eslint-config@1.2.11) (2020-04-14)
 
 
