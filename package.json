@@ -27,7 +27,7 @@
     "commitlint": "8.3.5",
     "husky": "4.2.5",
     "lerna": "3.20.2",
-    "prettier": "2.0.4",
+    "prettier": "2.0.5",
     "pretty-quick": "2.0.1"
   },
   "prettier": "./packages/dev-config/prettier-config.json",
