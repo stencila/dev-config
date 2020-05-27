@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.0...@stencila/eslint-config@1.3.1) (2020-05-27)
+
+
+### Bug Fixes
+
+* **ESLint:** Use update ban-ts-ignore rule name ([ae301c7](https://github.com/stencila/dev-config/commit/ae301c7))
+
+
+
+
+
 # [1.3.0](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.2.24...@stencila/eslint-config@1.3.0) (2020-05-27)
 
 
