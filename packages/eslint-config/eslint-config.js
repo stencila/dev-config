@@ -25,7 +25,7 @@ module.exports = {
         allowHigherOrderFunctions: true,
       },
     ],
-    '@typescript-eslint/ban-ts-ignore': 'warn',
+    '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/await-thenable': 'warn',
     '@typescript-eslint/no-floating-promises': 'error',
     'no-shadow': ['error', { builtinGlobals: true }],
