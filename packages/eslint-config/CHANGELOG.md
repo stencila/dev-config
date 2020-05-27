@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.2.24...@stencila/eslint-config@1.3.0) (2020-05-27)
+
+
+### Features
+
+* **ESLint:** Enable no-shadow rule. Close [#64](https://github.com/stencila/dev-config/issues/64) ([812c8f2](https://github.com/stencila/dev-config/commit/812c8f2))
+
+
+
+
+
 ## [1.2.24](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.2.23...@stencila/eslint-config@1.2.24) (2020-05-27)
 
 
