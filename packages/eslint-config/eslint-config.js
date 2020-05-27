@@ -6,7 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
     'prettier/@typescript-eslint',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
@@ -15,15 +15,15 @@ module.exports = {
       {
         functions: false,
         // Because sometimes we define functions using const func = ...
-        variables: false
-      }
+        variables: false,
+      },
     ],
     '@typescript-eslint/explicit-function-return-type': [
       'warn',
       {
         allowExpressions: true,
-        allowHigherOrderFunctions: true
-      }
+        allowHigherOrderFunctions: true,
+      },
     ],
     '@typescript-eslint/ban-ts-ignore': 'warn',
     '@typescript-eslint/await-thenable': 'warn',
@@ -33,7 +33,10 @@ module.exports = {
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/strict-boolean-expressions': [
       'error',
-      { allowNullable: true }
+      {
+        allowString: false,
+        allowNullableBoolean: true,
+      },
     ],
     '@typescript-eslint/no-unused-vars': [
       'warn',
@@ -42,13 +45,12 @@ module.exports = {
         //    const { content, ...rest } = node
         //    return rest
         ignoreRestSiblings: true,
-        varsIgnorePattern: 'h' // This is for JSX support in StencilJS
-      }
-    ]
+      },
+    ],
   },
   parserOptions: {
     project: './tsconfig.json',
     ecmaVersion: 2018,
-    sourceType: 'module'
-  }
+    sourceType: 'module',
+  },
 }
