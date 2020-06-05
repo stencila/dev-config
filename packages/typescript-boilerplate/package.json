@@ -42,7 +42,7 @@
     "ts-node": "8.10.2",
     "ts-node-dev": "1.0.0-pre.44",
     "typedoc": "0.17.7",
-    "typedoc-plugin-external-module-name": "3.1.0",
+    "typedoc-plugin-external-module-name": "4.0.0",
     "typescript": "3.9.5"
   },
   "jest": {
