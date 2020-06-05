@@ -1,6 +1,6 @@
 {
   "name": "@stencila/eslint-config",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Shared ESLint configuration for Stencila projects",
   "keywords": [
     "Stencila",
