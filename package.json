@@ -26,7 +26,7 @@
     "@stencila/semantic-release-config": "file:packages/semantic-release-config",
     "commitlint": "8.3.5",
     "husky": "4.2.5",
-    "lerna": "3.22.0",
+    "lerna": "3.22.1",
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1"
   },
