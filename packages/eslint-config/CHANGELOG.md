@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.8](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.7...@stencila/eslint-config@1.3.8) (2020-07-03)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency eslint-plugin-react to ^7.20.3 ([44891ab](https://github.com/stencila/dev-config/commit/44891ab))
+
+
+
+
+
 ## [1.3.7](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.6...@stencila/eslint-config@1.3.7) (2020-07-03)
 
 
