@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.88](https://github.com/stencila/dev-config/compare/@stencila/typescript-boilerplate@1.1.87...@stencila/typescript-boilerplate@1.1.88) (2020-07-23)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency eslint to ^7.5.0 ([7758771](https://github.com/stencila/dev-config/commit/7758771))
+
+
+
+
+
 ## [1.1.87](https://github.com/stencila/dev-config/compare/@stencila/typescript-boilerplate@1.1.86...@stencila/typescript-boilerplate@1.1.87) (2020-07-21)
 
 **Note:** Version bump only for package @stencila/typescript-boilerplate
