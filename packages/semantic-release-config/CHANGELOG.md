@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.20](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.2.19...@stencila/semantic-release-config@1.2.20) (2020-08-10)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency @qiwi/semantic-release-gh-pages-plugin to ^4.0.3 ([02926cb](https://github.com/stencila/dev-config/commit/02926cb))
+
+
+
+
+
 ## [1.2.19](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.2.18...@stencila/semantic-release-config@1.2.19) (2020-07-23)
 
 
