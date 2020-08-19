@@ -23,10 +23,10 @@
     "url": "https://github.com/stencila/dev-config/issues"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.2",
     "@stencila/eslint-config": "file:../eslint-config",
     "@stencila/semantic-release-config": "file:../semantic-release-config",
-    "commitlint": "^9.1.0",
+    "commitlint": "^9.1.2",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
