@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.66](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.4.65...@stencila/dev-config@1.4.66) (2020-08-19)
+
+**Note:** Version bump only for package @stencila/dev-config
+
+
+
+
+
 ## [1.4.65](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.4.64...@stencila/dev-config@1.4.65) (2020-08-19)
 
 
