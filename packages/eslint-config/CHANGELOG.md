@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.26](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.25...@stencila/eslint-config@1.3.26) (2020-09-09)
+
+
+### Bug Fixes
+
+* **dependencies:** update typescript-eslint monorepo to v4 ([47a16d6](https://github.com/stencila/dev-config/commit/47a16d6))
+
+
+
+
+
 ## [1.3.25](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.24...@stencila/eslint-config@1.3.25) (2020-09-09)
 
 
