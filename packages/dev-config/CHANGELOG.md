@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.74](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.4.73...@stencila/dev-config@1.4.74) (2020-09-28)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency prettier to ^2.1.2 ([65f06df](https://github.com/stencila/dev-config/commit/65f06df))
+
+
+
+
+
 ## [1.4.73](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.4.72...@stencila/dev-config@1.4.73) (2020-09-28)
 
 **Note:** Version bump only for package @stencila/dev-config
