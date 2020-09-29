@@ -63,6 +63,17 @@
   "renovate": {
     "extends": [
       "@stencila"
+    ],
+    "packageRules": [
+      {
+        "updateTypes": [
+          "minor",
+          "patch",
+          "pin",
+          "digest"
+        ],
+        "automerge": true
+      }
     ]
   }
 }
