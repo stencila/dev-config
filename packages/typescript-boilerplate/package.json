@@ -38,7 +38,7 @@
     "@stencila/dev-config": "file:../dev-config",
     "@types/jest": "26.0.14",
     "jest": "26.4.2",
-    "ts-jest": "26.4.0",
+    "ts-jest": "26.4.1",
     "ts-node": "9.0.0",
     "ts-node-dev": "1.0.0-pre.63",
     "typedoc": "0.19.2",
