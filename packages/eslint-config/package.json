@@ -38,7 +38,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "standard": "^14.3.4"
+    "standard": "^15.0.1"
   },
   "devDependencies": {
     "prettier": "2.1.2",
