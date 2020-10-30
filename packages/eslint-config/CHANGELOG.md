@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.42](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.41...@stencila/eslint-config@1.3.42) (2020-10-30)
+
+**Note:** Version bump only for package @stencila/eslint-config
+
+
+
+
+
 ## [1.3.41](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.40...@stencila/eslint-config@1.3.41) (2020-10-29)
 
 
