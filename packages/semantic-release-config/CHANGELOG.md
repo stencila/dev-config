@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.25](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.2.24...@stencila/semantic-release-config@1.2.25) (2020-11-04)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency semantic-release to ^17.2.2 ([23c0c63](https://github.com/stencila/dev-config/commit/23c0c63))
+
+
+
+
+
 ## [1.2.24](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.2.23...@stencila/semantic-release-config@1.2.24) (2020-10-15)
 
 
