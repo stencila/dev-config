@@ -4,7 +4,7 @@
   "main": "lerna.json",
   "scripts": {
     "postinstall": "npm run bootstrap",
-    "bootstrap": "npx lerna exec 'npm install --ignore-scripts'"
+    "bootstrap": "lerna bootstrap --force-local"
   },
   "peerDependencies": {
     "prettier": "^1.17.1 || ^2.0.0"
