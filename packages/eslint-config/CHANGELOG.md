@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.46](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.45...@stencila/eslint-config@1.3.46) (2020-11-11)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency eslint to ^7.13.0 ([ec82fd5](https://github.com/stencila/dev-config/commit/ec82fd5))
+
+
+
+
+
 ## [1.3.45](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.44...@stencila/eslint-config@1.3.45) (2020-11-05)
 
 
