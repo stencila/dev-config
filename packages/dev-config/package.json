@@ -1,6 +1,6 @@
 {
   "name": "@stencila/dev-config",
-  "version": "1.4.115",
+  "version": "1.4.116",
   "description": "Shared development configurations for Stencila projects",
   "author": "Stencila <hello@stenci.la>",
   "homepage": "https://github.com/stencila/dev-config/tree/master/packages/dev-config#readme",
