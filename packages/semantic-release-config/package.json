@@ -1,6 +1,6 @@
 {
   "name": "@stencila/semantic-release-config",
-  "version": "1.2.30",
+  "version": "1.2.31",
   "description": "Shared semantic-release configuration for Stencila projects",
   "keywords": [
     "Stencila",
