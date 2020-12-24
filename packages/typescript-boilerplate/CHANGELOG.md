@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.159](https://github.com/stencila/dev-config/compare/@stencila/typescript-boilerplate@1.1.158...@stencila/typescript-boilerplate@1.1.159) (2020-12-24)
+
+**Note:** Version bump only for package @stencila/typescript-boilerplate
+
+
+
+
+
 ## [1.1.158](https://github.com/stencila/dev-config/compare/@stencila/typescript-boilerplate@1.1.157...@stencila/typescript-boilerplate@1.1.158) (2020-12-23)
 
 **Note:** Version bump only for package @stencila/typescript-boilerplate
