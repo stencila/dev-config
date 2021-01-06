@@ -16,10 +16,6 @@ the particular tool's shared configuration mechanism to work):
 - [`@stencila/eslint-config`](./packages/eslint-config)
 - [`@stencila/semantic-release-config`](./packages/semantic-release-config)
 
-## [`@stencila/typescript-boilerplate`](./packages/typescript-boilerplate)
-
-An opinionated setup for Typescript projects including tools such as `jest`, `typedoc`, and `ts-node-dev`. See the [README](./packages/typescript-boilerplate#readme) for more.
-
 ## Contributing
 
 Clone this project
