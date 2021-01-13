@@ -27,7 +27,7 @@
     "@stencila/eslint-config": "file:../eslint-config",
     "@stencila/semantic-release-config": "file:../semantic-release-config",
     "commitlint": "^11.0.0",
-    "husky": "^4.3.6",
+    "husky": "^4.3.7",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
     "write-pkg": "^4.0.0"
