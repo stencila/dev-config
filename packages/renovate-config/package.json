@@ -36,17 +36,40 @@
       "semanticCommitScope": "Dependencies",
       "packageRules": [
         {
+          "rangeStrategy": "bump",
+          "packagePatterns": [
+            "postcss"
+          ],
+          "updateTypes": [
+            "major"
+          ]
+        },
+        {
           "depTypeList": [
             "dependencies"
           ],
-          "rangeStrategy": "bump"
+          "rangeStrategy": "bump",
+          "updateTypes": [
+            "minor",
+            "patch",
+            "pin",
+            "digest"
+          ],
+          "automerge": true
         },
         {
           "groupName": "Dev dependencies",
           "groupSlug": "dev",
           "depTypeList": [
             "devDependencies"
-          ]
+          ],
+          "updateTypes": [
+            "minor",
+            "patch",
+            "pin",
+            "digest"
+          ],
+          "automerge": true
         }
       ]
     },
