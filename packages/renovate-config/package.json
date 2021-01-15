@@ -36,9 +36,12 @@
       "semanticCommitScope": "Dependencies",
       "packageRules": [
         {
+          "groupName": "PostCSS",
+          "groupSlug": "postcss",
           "rangeStrategy": "bump",
           "packagePatterns": [
-            "postcss"
+            "postcss",
+            "autoprefixer"
           ],
           "updateTypes": [
             "major"
