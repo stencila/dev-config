@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.4.131...@stencila/dev-config@2.0.0) (2021-02-09)
+
+
+### Bug Fixes
+
+* **TSConfig:** Target ESNext to fix compatibility with bundlers ([1b20d15](https://github.com/stencila/dev-config/commit/1b20d15))
+
+
+### BREAKING CHANGES
+
+* **TSConfig:** Might require changes to project’s tsconfig depending
+on build target. See: https://standardjs.com/changelog.html
+
+
+
+
+
 ## [1.4.131](https://github.com/stencila/dev-config/compare/@stencila/dev-config@1.4.130...@stencila/dev-config@1.4.131) (2021-01-14)
 
 **Note:** Version bump only for package @stencila/dev-config

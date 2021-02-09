@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.69...@stencila/eslint-config@2.0.0) (2021-02-09)
+
+
+### Bug Fixes
+
+* **Dependencies:** Update dependency standard to v16 ([cbbadd9](https://github.com/stencila/dev-config/commit/cbbadd9))
+
+
+### BREAKING CHANGES
+
+* **Dependencies:** Some significant changes to default StandardJS options
+See: https://standardjs.com/changelog.html
+
+
+
+
+
 ## [1.3.69](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@1.3.68...@stencila/eslint-config@1.3.69) (2021-01-14)
 
 
