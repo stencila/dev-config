@@ -45,6 +45,10 @@ module.exports = {
         //    const { content, ...rest } = node
         //    return rest
         ignoreRestSiblings: true,
+        // For things like
+        //    const [_unused_first_item, second] = pair()
+        varsIgnorePattern: '^_',
+        argsIgnorePattern: '^_',
       },
     ],
   },
