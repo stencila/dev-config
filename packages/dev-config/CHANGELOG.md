@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/stencila/dev-config/compare/@stencila/dev-config@2.0.3...@stencila/dev-config@2.0.4) (2021-03-03)
+
+
+### Bug Fixes
+
+* **dependencies:** update commitlint monorepo to v12 ([50ab54c](https://github.com/stencila/dev-config/commit/50ab54ceac2e07bf3e139be17f0cdb4565484657))
+
+
+
+
+
 ## [2.0.3](https://github.com/stencila/dev-config/compare/@stencila/dev-config@2.0.2...@stencila/dev-config@2.0.3) (2021-03-03)
 
 **Note:** Version bump only for package @stencila/dev-config
