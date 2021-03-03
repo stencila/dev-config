@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@2.0.3...@stencila/eslint-config@2.0.4) (2021-03-03)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency eslint-config-prettier to v8 ([a8ba400](https://github.com/stencila/dev-config/commit/a8ba40089a127e542bd7208d746ca9816597621b))
+
+
+
+
+
 ## [2.0.3](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@2.0.2...@stencila/eslint-config@2.0.3) (2021-03-03)
 
 **Note:** Version bump only for package @stencila/eslint-config
