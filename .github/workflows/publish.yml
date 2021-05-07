@@ -55,7 +55,7 @@ jobs:
 
       - name: Publish packages
         if: success() && (github.ref == 'refs/heads/master')
-        run: npx lerna publish --yes
+        run: npx lerna publish --yes --no-verify-access
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
