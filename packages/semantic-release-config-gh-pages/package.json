@@ -1,7 +1,7 @@
 {
-  "name": "@stencila/semantic-release-config",
-  "version": "1.2.40",
-  "description": "Shared semantic-release configuration for Stencila projects",
+  "name": "@stencila/semantic-release-config-gh-pages",
+  "version": "0.0.1",
+  "description": "Shared semantic-release configuration for Stencila projects, with support for publishing to GitHub Pages",
   "keywords": [
     "Stencila",
     "dev",
@@ -9,13 +9,13 @@
     "config"
   ],
   "author": "Stencila <hello@stenci.la>",
-  "homepage": "https://github.com/stencila/dev-config/tree/master/packages/semantic-release-config#readme",
+  "homepage": "https://github.com/stencila/dev-config/tree/master/packages/semantic-release-config-gh-pages#readme",
   "license": "Apache-2.0",
-  "main": "semantic-release-config.js",
+  "main": "semantic-release-config-gh-pages.js",
   "files": [
     "CHANGELOG.md",
     "README.md",
-    "semantic-release-config.js"
+    "semantic-release-config-gh-pages.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -29,6 +29,7 @@
     "url": "https://github.com/stencila/dev-config/issues"
   },
   "dependencies": {
+    "@qiwi/semantic-release-gh-pages-plugin": "^5.0.4",
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/commit-analyzer": "^9.0.0",
     "@semantic-release/git": "^10.0.0",
