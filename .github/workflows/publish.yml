@@ -2,7 +2,8 @@ name: Build and Publish packages
 
 on:
   pull_request:
-    branches: '*'
+    branches:
+      - '*'
   push:
     branches:
       - master
@@ -37,7 +38,6 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
-      - run: npm run bootstrap
 
       # Publish packages if running on main branch
       - name: Configure services
