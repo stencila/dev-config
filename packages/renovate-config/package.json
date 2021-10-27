@@ -41,7 +41,8 @@
           "rangeStrategy": "bump",
           "packagePatterns": [
             "postcss",
-            "autoprefixer"
+            "autoprefixer",
+            "cssnano"
           ],
           "updateTypes": [
             "major"
