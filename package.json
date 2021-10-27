@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/stencila/dev-config#readme",
   "devDependencies": {
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/config-conventional": "13.2.0",
     "@stencila/dev-config": "file:packages/dev-config",
     "@stencila/eslint-config": "file:packages/eslint-config",
     "@stencila/semantic-release-config": "file:packages/semantic-release-config",
-    "commitlint": "12.1.4",
+    "commitlint": "13.2.1",
     "husky": "4.3.8",
     "lerna": "4.0.0",
     "prettier": "2.4.1",
