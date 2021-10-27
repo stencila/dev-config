@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.20](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@2.0.19...@stencila/eslint-config@2.0.20) (2021-10-27)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency eslint-plugin-prettier to v4 ([3002532](https://github.com/stencila/dev-config/commit/3002532a9fcd24efdc658c6323a5ded6426d8999))
+* **dependencies:** update typescript-eslint monorepo to v5 ([38f9730](https://github.com/stencila/dev-config/commit/38f9730079ac09974f7fd5de3b623fbcd760de36))
+
+
+
+
+
 ## [2.0.19](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@2.0.18...@stencila/eslint-config@2.0.19) (2021-10-20)
 
 **Note:** Version bump only for package @stencila/eslint-config

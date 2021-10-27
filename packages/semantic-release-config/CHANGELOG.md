@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.38](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.2.37...@stencila/semantic-release-config@1.2.38) (2021-10-27)
+
+**Note:** Version bump only for package @stencila/semantic-release-config
+
+
+
+
+
 ## [1.2.37](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.2.36...@stencila/semantic-release-config@1.2.37) (2021-06-10)
 
 **Note:** Version bump only for package @stencila/semantic-release-config

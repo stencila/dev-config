@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.23](https://github.com/stencila/dev-config/compare/@stencila/dev-config@2.0.22...@stencila/dev-config@2.0.23) (2021-10-27)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependency write-pkg to v5 ([c893ede](https://github.com/stencila/dev-config/commit/c893ede24a7a4004723a1050e7ff0b425992eb7f))
+
+
+
+
+
 ## [2.0.22](https://github.com/stencila/dev-config/compare/@stencila/dev-config@2.0.21...@stencila/dev-config@2.0.22) (2021-10-20)
 
 **Note:** Version bump only for package @stencila/dev-config
