@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.39](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.2.38...@stencila/semantic-release-config@1.2.39) (2021-10-27)
+
+
+### Bug Fixes
+
+* **dependencies:** update semantic-release monorepo ([7afa0cf](https://github.com/stencila/dev-config/commit/7afa0cff87a187c84928d0af9e595370e6f23fae))
+
+
+
+
+
 ## [1.2.38](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config@1.2.37...@stencila/semantic-release-config@1.2.38) (2021-10-27)
 
 **Note:** Version bump only for package @stencila/semantic-release-config
