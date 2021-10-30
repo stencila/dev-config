@@ -9,12 +9,14 @@ general.
 
 ## [`@stencila/dev-config`](./packages/dev-config)
 
-Configurations for EditorConfig, Prettier, Husky, and more. See the [README](./packages/dev-config#readme) for more. This package is
-dependent on two other packages (that need to be separate NPM packages for
+Configurations for EditorConfig, Prettier, Husky, and more. See the [README](./packages/dev-config#readme) for details.
+This package is dependent on two other packages (that need to be separate NPM packages for
 the particular tool's shared configuration mechanism to work):
 
 - [`@stencila/eslint-config`](./packages/eslint-config)
+- [`@stencila/eslint-config-stencil`](./packages/eslint-config-stencil)
 - [`@stencila/semantic-release-config`](./packages/semantic-release-config)
+- [`@stencila/semantic-release-config-gh-pages`](./packages/semantic-release-config-gh-pages)
 
 ## Contributing
 

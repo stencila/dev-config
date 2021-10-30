@@ -12,18 +12,6 @@ const prettier = {
   prettier: '@stencila/dev-config/prettier-config.json',
 }
 
-const esLint = {
-  eslintConfig: {
-    extends: '@stencila/eslint-config',
-  },
-}
-
-const semanticRelease = {
-  release: {
-    extends: '@stencila/semantic-release-config',
-  },
-}
-
 const commitLint = {
   commitlint: {
     extends: ['@commitlint/config-conventional'],
@@ -40,7 +28,7 @@ const renovate = {
   },
 }
 
-const configurations = [commitLint, esLint, prettier, renovate, semanticRelease]
+const configurations = [commitLint, prettier, renovate]
 
 // Files to copy to the project (if missing)
 

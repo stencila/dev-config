@@ -44,11 +44,6 @@ Most of these are setup automatically, on installation, or by running `init.js`.
 
 The [`.editorconfig`](.editorconfig) file from this repo is copied into the root of your project by `init.js`. Note the [VSCode](#vscode) config in this repo includes a recommendation to install the [`EditorConfig.EditorConfig`](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) extension. This will attempt to override user/workspace settings with settings found in the `.editorconfig` file.
 
-### [Visual Studio Code](https://code.visualstudio.com/)
-
-Many of our contributors use VSCode as a code editor. So this repo includes a [`.vscode`](.vscode) with settings for VSCode. Since most of the generic code editing setting are defined in `.editorconfig`, the focus of these setting is VSCode specific things like recommended extensions and debug launch settings.
-The files in `.vscode/` in this repo are copied into the same directory in your repo by `init.js`.
-
 ### [Prettier](https://prettier.io/)
 
 > Pettier is an opinionated code formatter which supports many languages, integrates with most editors, and has few options. Why? You press save and code is formatted. No need to discuss style in code review. Saves you time and energy. And [more ...](https://prettier.io/docs/en/why-prettier.html)
@@ -63,9 +58,11 @@ This repo includes a configuration file for Prettier, [`prettier-config.json`](.
 
 ### [ESLint](https://eslint.org/)
 
+> 👋 **Requires manual installation**
+
 > The pluggable linting utility for JavaScript and JSX [and Typescript]
 
-This packages depends on [`@stencila/eslint-config`](../packages/eslint-config) which has a shared configuration for ESLint. The `init.js` script will add this config your project's `package.json`.
+Please see the [`@stencila/eslint-config`](../packages/eslint-config) README for how to install the shared configuration for ESLint.
 
 ### [Husky](https://github.com/typicode/husky)
 
@@ -74,12 +71,16 @@ Husky is "Git hooks made easy". We use it with [`pretty-quick`](https://github.c
 For monorepos, [it is recommended](https://typicode.github.io/husky/#/?id=monorepo) to install Husky only once at the root of the repository.
 
 ```sh
+# Ensure that commit messages follow a Semantic Commit message structure
 npx husky add .husky/commit-msg "npx --no-install commitlint --edit $1"
+# Run Prettier over staged files before committing them
 npx husky add .husky/pre-commit "npx --no-install pretty-quick --staged"
 ```
 
 ### [Semantic Release](https://semantic-release.gitbook.io/semantic-release/)
 
+> 👋 **Requires manual installation**
+
 > `semantic-release` automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package. This removes the immediate connection between human emotions and version numbers, strictly following the Semantic Versioning specification.
 
-This packages depends on [`@stencila/semantic-release-config`](../packages/semantic-release-config) which has a shared configuration for Semantic Release. The `init.js` script will add this config your project's `package.json`.
+Please see the [`@stencila/semantic-release-config`](../packages/semantic-release-config) README for how to use the shared configuration for Semantic Release.
