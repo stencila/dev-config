@@ -71,15 +71,11 @@ This packages depends on [`@stencila/eslint-config`](../packages/eslint-config) 
 
 Husky is "Git hooks made easy". We use it with [`pretty-quick`](https://github.com/azz/pretty-quick) (to lint staged files) and [`commitlint`](https://github.com/conventional-changelog/commitlint) (to lint commit messages) .To enable Husky add the following to your project's `package.json` (this is done for you by `init.js`),
 
-```json5
-  // …
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  }
-  // …
+For monorepos, [it is recommended](https://typicode.github.io/husky/#/?id=monorepo) to install Husky only once at the root of the repository.
+
+```sh
+npx husky add .husky/commit-msg "npx --no-install commitlint --edit $1"
+npx husky add .husky/pre-commit "npx --no-install pretty-quick --staged"
 ```
 
 ### [Semantic Release](https://semantic-release.gitbook.io/semantic-release/)

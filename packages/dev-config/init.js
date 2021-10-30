@@ -12,15 +12,6 @@ const prettier = {
   prettier: '@stencila/dev-config/prettier-config.json'
 }
 
-const husky = {
-  husky: {
-    hooks: {
-      'pre-commit': 'pretty-quick --staged',
-      'commit-msg': 'commitlint -E HUSKY_GIT_PARAMS'
-    }
-  }
-}
-
 const esLint = {
   eslintConfig: {
     extends: '@stencila/eslint-config'
@@ -49,7 +40,7 @@ const renovate = {
   }
 }
 
-const configurations = [commitLint, esLint, husky, prettier, renovate, semanticRelease]
+const configurations = [commitLint, esLint, prettier, renovate, semanticRelease]
 
 // Files to copy to the project (if missing)
 
