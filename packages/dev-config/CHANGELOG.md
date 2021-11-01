@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/stencila/dev-config/compare/@stencila/dev-config@2.0.27...@stencila/dev-config@3.0.0) (2021-11-01)
+
+### Features
+
+- **Dev Config:** Drop auto-install of ESLint & Semantic Release configs ([b773a4f](https://github.com/stencila/dev-config/commit/b773a4fe9457cbc28083aca1aa129b729e5973bb))
+- **Dev Config:** Move packages to peerDependencies ([f4e1f77](https://github.com/stencila/dev-config/commit/f4e1f77328d6c93e6fa8f419f67ef422bc1c37b8))
+- **Husky:** Drop Husky auto-install ([f098029](https://github.com/stencila/dev-config/commit/f0980291f8636bcbbe997ad01f7a5499ce0d2b2e))
+- **VSCode:** Drop list of recommended packages ([1c583a3](https://github.com/stencila/dev-config/commit/1c583a39653c6bf1fd2bf83fc450112e8f2396f6))
+
+### BREAKING CHANGES
+
+- **Dev Config:** Target NPM v7 install, for usage with NPM v6 or below
+  please manually install the required peer dependencies.
+- **Dev Config:** These two packages have nuance to their configuration
+  and are best left to the user to install following the reference configurations.
+- **VSCode:** This list has grown out of date and contains many discontinued
+  plugins. As such we're removing it from the package.
+- **Husky:** It is now recommended to manually install Husky as a dependency
+  of your project. Please see the README in `packages/dev-config/README.md` for details
+
 ## [2.0.27](https://github.com/stencila/dev-config/compare/@stencila/dev-config@2.0.26...@stencila/dev-config@2.0.27) (2021-10-27)
 
 **Note:** Version bump only for package @stencila/dev-config
