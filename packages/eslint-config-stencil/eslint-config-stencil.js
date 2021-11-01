@@ -1,13 +1,22 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
   extends: [
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'plugin:@stencil/recommended',
+    'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
   ],
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
+    '@stencil/ban-prefix': 'off',
+    '@typescript-eslint/no-unused-vars': 0,
+    '@typescript-eslint/no-unused-vars-experimental': [
+      'error',
+      {
+        ignoredNamesRegex: '^_|^component(Will|Did)(Un)?[Ll]oad',
+      },
+    ],
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': [
       'error',
@@ -52,7 +61,16 @@ module.exports = {
     ],
   },
   parserOptions: {
+    jsx: true,
     project: './tsconfig.json',
     sourceType: 'module',
   },
+  overrides: [
+    {
+      files: ['*.test.ts', '*.spec.ts'],
+      env: {
+        jest: true,
+      },
+    },
+  ],
 }

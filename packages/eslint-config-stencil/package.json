@@ -1,7 +1,7 @@
 {
-  "name": "@stencila/eslint-config",
-  "version": "2.0.22",
-  "description": "Shared ESLint configuration for Stencila projects",
+  "name": "@stencila/eslint-config-stencil",
+  "version": "1.0.0",
+  "description": "Shared ESLint configuration for Stencila projects using StencilJS",
   "keywords": [
     "Stencila",
     "dev",
@@ -9,14 +9,12 @@
     "config"
   ],
   "author": "Stencila <hello@stenci.la>",
-  "homepage": "https://github.com/stencila/dev-config/tree/master/packages/eslint-config#readme",
+  "homepage": "https://github.com/stencila/dev-config/tree/master/packages/eslint-config-stencil#readme",
   "license": "Apache-2.0",
-  "main": "eslint-config.js",
+  "main": "eslint-config-stencil.js",
   "files": [
     "CHANGELOG.md",
-    "eslint-config-react.js",
-    "eslint-config-stencil.js",
-    "eslint-config.js"
+    "eslint-config-stencil.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -30,15 +28,18 @@
     "url": "https://github.com/stencila/dev-config/issues"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=5.0.0",
-    "eslint": ">=7.0.0",
+    "@typescript-eslint/eslint-plugin": "<5 && ^4.0.0",
+    "@typescript-eslint/parser": "<5 && ^4.0.0",
+    "eslint": "<8 && ^7.0.0",
     "eslint-config-prettier": ">=8.0.0",
     "eslint-config-standard": ">=16.0.0",
     "eslint-plugin-import": ">=2.0.0",
+    "eslint-plugin-jsx-a11y": ">=6.0.0",
     "eslint-plugin-node": ">=11.0.0",
     "eslint-plugin-prettier": ">=4.0.0",
     "eslint-plugin-promise": ">=5.0.0",
+    "eslint-plugin-react": "^7.0.0",
     "prettier": ">=2.0.0",
-    "typescript": ">=4.0.0"
+    "typescript": "^4.0.8"
   }
 }

@@ -9,28 +9,7 @@ const cwd = process.env.INIT_CWD || process.cwd()
 // Configurations to merge into `package.json`
 
 const prettier = {
-  prettier: '@stencila/dev-config/prettier-config.json'
-}
-
-const husky = {
-  husky: {
-    hooks: {
-      'pre-commit': 'pretty-quick --staged',
-      'commit-msg': 'commitlint -E HUSKY_GIT_PARAMS'
-    }
-  }
-}
-
-const esLint = {
-  eslintConfig: {
-    extends: '@stencila/eslint-config'
-  }
-}
-
-const semanticRelease = {
-  release: {
-    extends: '@stencila/semantic-release-config'
-  }
+  prettier: '@stencila/dev-config/prettier-config.json',
 }
 
 const commitLint = {
@@ -38,26 +17,22 @@ const commitLint = {
     extends: ['@commitlint/config-conventional'],
     rules: {
       'scope-case': [2, 'always', 'sentence-case'],
-      'subject-case': [2, 'always', 'sentence-case']
-    }
-  }
+      'subject-case': [2, 'always', 'sentence-case'],
+    },
+  },
 }
 
 const renovate = {
   renovate: {
-    extends: ['@stencila']
-  }
+    extends: ['@stencila'],
+  },
 }
 
-const configurations = [commitLint, esLint, husky, prettier, renovate, semanticRelease]
+const configurations = [commitLint, prettier, renovate]
 
 // Files to copy to the project (if missing)
 
-const files = [
-  path.join('.vscode', 'extensions.json'),
-  path.join('.vscode', 'settings.json'),
-  '.editorconfig'
-]
+const files = ['.editorconfig']
 
 // Update the project's `package.json`
 
@@ -70,7 +45,7 @@ const readPkg = async () =>
 
 const mergeConfigs = (config, newConfig) => ({
   ...config,
-  ...newConfig
+  ...newConfig,
 })
 
 ;(async () => {
@@ -81,7 +56,7 @@ const mergeConfigs = (config, newConfig) => ({
 
 // Copy missing files to the project
 
-files.forEach(file => {
+files.forEach((file) => {
   const src = path.join(__dirname, file)
   const dest = path.join(cwd, file)
   if (!fs.existsSync(dest)) {
@@ -89,7 +64,7 @@ files.forEach(file => {
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir)
     }
-    fs.copyFile(src, dest, err => {
+    fs.copyFile(src, dest, (err) => {
       if (err) throw err
     })
   }
