@@ -10,6 +10,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     '@stencil/ban-prefix': 'off',
+    '@stencil/decorators-style': 'off',
     '@typescript-eslint/no-unused-vars': 0,
     '@typescript-eslint/no-unused-vars-experimental': [
       'error',
