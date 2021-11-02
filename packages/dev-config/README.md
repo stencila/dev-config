@@ -62,7 +62,7 @@ This repo includes a configuration file for Prettier, [`prettier-config.json`](.
 
 > The pluggable linting utility for JavaScript and JSX [and Typescript]
 
-Please see the [`@stencila/eslint-config`](../packages/eslint-config) README for how to install the shared configuration for ESLint.
+Please see the [`@stencila/eslint-config`](../eslint-config) README for how to install the shared configuration for ESLint.
 
 ### [Husky](https://github.com/typicode/husky)
 
@@ -71,10 +71,20 @@ Husky is "Git hooks made easy". We use it with [`pretty-quick`](https://github.c
 For monorepos, [it is recommended](https://typicode.github.io/husky/#/?id=monorepo) to install Husky only once at the root of the repository.
 
 ```sh
+# Install Husky
+npm install husky@latest --save-dev
+
+# If installing in a new project:
 # Ensure that commit messages follow a Semantic Commit message structure
 npx husky add .husky/commit-msg "npx --no-install commitlint --edit $1"
 # Run Prettier over staged files before committing them
 npx husky add .husky/pre-commit "npx --no-install pretty-quick --staged"
+
+# If upgrading an existing Husky installation
+npx husky-init
+npm exec -- github:typicode/husky-4-to-7 --remove-v4-config
+# You will likely have to edit the generated git hooks,
+# please follow the instructions printed and use the hook commands above as a reference
 ```
 
 ### [Semantic Release](https://semantic-release.gitbook.io/semantic-release/)
@@ -83,4 +93,4 @@ npx husky add .husky/pre-commit "npx --no-install pretty-quick --staged"
 
 > `semantic-release` automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package. This removes the immediate connection between human emotions and version numbers, strictly following the Semantic Versioning specification.
 
-Please see the [`@stencila/semantic-release-config`](../packages/semantic-release-config) README for how to use the shared configuration for Semantic Release.
+Please see the [`@stencila/semantic-release-config`](../semantic-release-config) README for how to use the shared configuration for Semantic Release.
