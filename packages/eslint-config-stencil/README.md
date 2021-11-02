@@ -20,7 +20,7 @@ npm install --save-dev @stencila/eslint-config-stencil
 Then modify your `package.json` to include the following code block. If you already
 have a `eslintConfig` configuration defined there, you’ll need to modify it.
 
-````json5
+```json5
   // …
   "eslintConfig": {
     // If your project is inside a monorepo, include `"root": true`, otherwise it can be omitted
@@ -47,5 +47,3 @@ For details see [ESLint documentation](https://eslint.org/docs/developer-guide/s
 
 - [ESLint Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs)
 - [eslint-plugin-prettier](https://github.com/prettier/eslint-config-prettier)
-```
-````
