@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config-gh-pages@0.1.0...@stencila/semantic-release-config-gh-pages@0.1.1) (2021-11-02)
+
+**Note:** Version bump only for package @stencila/semantic-release-config-gh-pages
+
 # 0.1.0 (2021-11-01)
 
 ### Features
