@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/stencila/dev-config/compare/@stencila/eslint-config-stencil@2.0.1...@stencila/eslint-config-stencil@2.0.2) (2021-11-02)
+
+### Bug Fixes
+
+- **ESLint:** Disable component name prefix rule ([3d0d911](https://github.com/stencila/dev-config/commit/3d0d911034fb323ebd064ee5d5411c6f3245e2e0))
+
 ## [2.0.1](https://github.com/stencila/dev-config/compare/@stencila/eslint-config-stencil@2.0.0...@stencila/eslint-config-stencil@2.0.1) (2021-11-02)
 
 ### Bug Fixes
