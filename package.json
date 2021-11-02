@@ -17,9 +17,7 @@
   "homepage": "https://github.com/stencila/dev-config#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "13.2.0",
-    "@stencila/dev-config": "file:packages/dev-config",
     "@stencila/eslint-config": "file:packages/eslint-config",
-    "@stencila/semantic-release-config": "file:packages/semantic-release-config",
     "commitlint": "13.2.1",
     "husky": "7.0.4",
     "lerna": "4.0.0",
@@ -46,9 +44,6 @@
   },
   "eslintConfig": {
     "extends": "@stencila/eslint-config"
-  },
-  "release": {
-    "extends": "@stencila/semantic-release-config"
   },
   "renovate": {
     "extends": [
