@@ -43,9 +43,6 @@
             "postcss",
             "autoprefixer",
             "cssnano"
-          ],
-          "updateTypes": [
-            "major"
           ]
         },
         {
