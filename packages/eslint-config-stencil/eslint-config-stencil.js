@@ -11,6 +11,12 @@ module.exports = {
   rules: {
     '@stencil/ban-prefix': 'off',
     '@stencil/decorators-style': 'off',
+    '@stencil/element-type': 'off',
+    'jsx-a11y/no-static-element-interactions': 'warn',
+    'jsx-a11y/no-onchange': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-unsafe-return': 'off',
     '@typescript-eslint/no-unused-vars': 0,
     '@typescript-eslint/no-unused-vars-experimental': [
       'error',
@@ -23,13 +29,6 @@ module.exports = {
       'error',
       {
         functions: false,
-      },
-    ],
-    '@typescript-eslint/explicit-function-return-type': [
-      'warn',
-      {
-        allowExpressions: true,
-        allowHigherOrderFunctions: true,
       },
     ],
     '@typescript-eslint/ban-ts-comment': 'warn',
