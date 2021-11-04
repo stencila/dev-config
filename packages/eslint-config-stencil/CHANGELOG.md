@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3](https://github.com/stencila/dev-config/compare/@stencila/eslint-config-stencil@2.0.2...@stencila/eslint-config-stencil@2.0.3) (2021-11-04)
+
+### Bug Fixes
+
+- **ESLint:** Refine linting rules for StencilJS projects ([fec4074](https://github.com/stencila/dev-config/commit/fec407474728cec8db954c3d9b949280e9425725))
+
 ## [2.0.2](https://github.com/stencila/dev-config/compare/@stencila/eslint-config-stencil@2.0.1...@stencila/eslint-config-stencil@2.0.2) (2021-11-02)
 
 ### Bug Fixes
