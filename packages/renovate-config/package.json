@@ -1,6 +1,6 @@
 {
   "name": "@stencila/renovate-config",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Shared Renovate configuration for Stencila projects",
   "keywords": [
     "Stencila",

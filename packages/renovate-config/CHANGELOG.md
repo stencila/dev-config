@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.3](https://github.com/stencila/dev-config/compare/@stencila/renovate-config@0.4.2...@stencila/renovate-config@0.4.3) (2021-11-04)
+
+### Bug Fixes
+
+- **Renovate:** Group all PostCSS updates, not just major versions ([194fb79](https://github.com/stencila/dev-config/commit/194fb79dec996583778d9608e28e517a9dc01bb8))
+
 ## [0.4.2](https://github.com/stencila/dev-config/compare/@stencila/renovate-config@0.4.1...@stencila/renovate-config@0.4.2) (2021-10-27)
 
 **Note:** Version bump only for package @stencila/renovate-config
