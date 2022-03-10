@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.4](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@3.0.3...@stencila/eslint-config@3.0.4) (2022-03-10)
+
+### Bug Fixes
+
+- **ESLint:** Change ESlint peer dependency version range ([9b99e98](https://github.com/stencila/dev-config/commit/9b99e9842875b9ebb15490dc56ab7fde40348cf5))
+
 ## [3.0.3](https://github.com/stencila/dev-config/compare/@stencila/eslint-config@3.0.2...@stencila/eslint-config@3.0.3) (2022-03-10)
 
 ### Bug Fixes
