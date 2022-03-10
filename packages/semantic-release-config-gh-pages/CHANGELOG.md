@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config-gh-pages@0.1.7...@stencila/semantic-release-config-gh-pages@0.1.8) (2022-03-10)
+
+### Bug Fixes
+
+- **dependencies:** update dependency @semantic-release/npm to v9 ([c089e10](https://github.com/stencila/dev-config/commit/c089e10390f28dbd2d3bc93b6eed12fc03a7be1d))
+
 ## [0.1.7](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config-gh-pages@0.1.6...@stencila/semantic-release-config-gh-pages@0.1.7) (2022-02-01)
 
 **Note:** Version bump only for package @stencila/semantic-release-config-gh-pages
