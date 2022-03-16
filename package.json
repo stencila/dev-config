@@ -16,9 +16,9 @@
   },
   "homepage": "https://github.com/stencila/dev-config#readme",
   "devDependencies": {
-    "@commitlint/config-conventional": "16.0.0",
+    "@commitlint/config-conventional": "16.2.1",
     "@stencila/eslint-config": "file:packages/eslint-config",
-    "commitlint": "16.1.0",
+    "commitlint": "16.2.1",
     "husky": "7.0.4",
     "lerna": "4.0.0",
     "prettier": "2.5.1",
