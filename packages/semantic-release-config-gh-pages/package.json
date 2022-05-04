@@ -1,6 +1,6 @@
 {
   "name": "@stencila/semantic-release-config-gh-pages",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Shared semantic-release configuration for Stencila projects, with support for publishing to GitHub Pages",
   "keywords": [
     "Stencila",
