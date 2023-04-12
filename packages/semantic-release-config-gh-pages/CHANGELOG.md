@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.18](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config-gh-pages@0.1.17...@stencila/semantic-release-config-gh-pages@0.1.18) (2023-04-12)
+
+### Bug Fixes
+
+- **dependencies:** update dependency @qiwi/semantic-release-gh-pages-plugin to v5.2.5 ([0784686](https://github.com/stencila/dev-config/commit/0784686c7ac18327e42cfe88dd0e2a1d1cd0a410))
+
 ## [0.1.17](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config-gh-pages@0.1.16...@stencila/semantic-release-config-gh-pages@0.1.17) (2023-03-30)
 
 **Note:** Version bump only for package @stencila/semantic-release-config-gh-pages
