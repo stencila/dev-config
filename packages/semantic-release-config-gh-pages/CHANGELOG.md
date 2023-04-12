@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.19](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config-gh-pages@0.1.18...@stencila/semantic-release-config-gh-pages@0.1.19) (2023-04-12)
+
+### Bug Fixes
+
+- **dependencies:** update semantic-release monorepo ([b366fa2](https://github.com/stencila/dev-config/commit/b366fa23d13ea63a67e7b10778f8fc6dd10cb479))
+
 ## [0.1.18](https://github.com/stencila/dev-config/compare/@stencila/semantic-release-config-gh-pages@0.1.17...@stencila/semantic-release-config-gh-pages@0.1.18) (2023-04-12)
 
 ### Bug Fixes
